@@ -1,13 +1,22 @@
 const db = require('../config/connection');
-const { Tech } = require('../models');
+const { User } = require('../models');
 
-const techData = require('./techData.json');
+const userSeeds = require('./userSeeds.json');
 
 db.once('open', async () => {
-  await Tech.deleteMany({});
+  try {
+    await User.deleteMany({});
 
-  const technologies = await Tech.insertMany(techData);
+    // Here userSeeds should include the savedBooks for each user
+    await User.create(userSeeds);
+    for (let userSeed of userSeeds) {
+      let user = new User(userSeed);
+      await user.save();
+    }
 
-  console.log('Technologies seeded!');
-  process.exit(0);
+    console.log('all done!');
+    process.exit(0);
+  } catch (err) {
+    throw err;
+  }
 });

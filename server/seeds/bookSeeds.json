@@ -1,0 +1,52 @@
+[
+    {
+      "authors": ["J.K. Rowling"],
+      "description": "Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive.",
+      "bookId": "1",
+      "image": "https://images.pottermore.com/bxd3o8b291gf/2egDz56ub8QoUuMUgoQ8Ke/0c6719edfd2b4f3a9df60290f802e3b6/Harry_Potter_and_the_Philosopher_s_Stone_Bloomsbury_UK_Kids.png?w=320&h=320&fit=thumb&f=center&q=85",
+      "link": "https://www.pottermore.com/book-club/harry-potter-and-the-philosophers-stone",
+      "title": "Harry Potter and the Philosopher's Stone"
+    },
+    {
+      "authors": ["J.R.R. Tolkien"],
+      "description": "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others.",
+      "bookId": "2",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51EstVXM1UL._SX331_BO1,204,203,200_.jpg",
+      "link": "https://www.amazon.com/Lord-Rings-J-R-R-Tolkien/dp/0544003411",
+      "title": "The Lord of the Rings"
+    },
+    {
+      "authors": ["George R.R. Martin"],
+      "description": "In a land where summers can last decades and winters a lifetime, trouble is brewing. The cold is returning, and in the frozen wastes to the North of Winterfell, sinister and supernatural forces are massing beyond the kingdom’s protective Wall.",
+      "bookId": "3",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/516AMLpLm4L._SX329_BO1,204,203,200_.jpg",
+      "link": "https://www.amazon.com/Game-Thrones-Song-Fire-Book/dp/0553593714",
+      "title": "A Game of Thrones"
+    },
+    {
+        "authors": ["George Orwell"],
+        "description": "1984 is a dystopian novella by George Orwell published in 1949, which follows the life of Winston Smith, a low ranking member of ‘the Party’, who is frustrated by the omnipresent eyes of the party, and its ominous ruler Big Brother.",
+        "bookId": "5",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41EwRjZp8DL._SX323_BO1,204,203,200_.jpg",
+        "link": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934",
+        "title": "1984"
+      },
+      {
+        "authors": ["J.R.R. Tolkien"],
+        "description": "In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others.",
+        "bookId": "6",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51EstVXM1UL._SX331_BO1,204,203,200_.jpg",
+        "link": "https://www.amazon.com/Lord-Rings-J-R-R-Tolkien/dp/0544003411",
+        "title": "The Lord of the Rings"
+      },
+
+      {
+        "authors": ["Margaret Atwood"],
+        "description": "Offred is a Handmaid in the Republic of Gilead. She may leave the home of the Commander and his wife once a day to walk to food markets whose signs are now pictures instead of words because women are no longer allowed to read.",
+        "bookId": "7",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41ljIdjTS-L._SX323_BO1,204,203,200_.jpg",
+        "link": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood/dp/038549081X",
+        "title":"The Handmaid's Tale"
+      }
+    
+  ]

@@ -8,6 +8,7 @@ const { authMiddleware } = require('./utils/auth');
 
 
 const app = express();
+//context is a function that will receive the Express.js req and return an object that will be passed to all resolvers as the context
 const server = new ApolloServer({
   typeDefs,
   resolvers,
